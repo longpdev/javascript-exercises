@@ -1,5 +1,5 @@
 const reverseString = function(string) {
-    splitString = string.split("    ");
+    splitString = string.split("");
     // hello -> [h,e,l,l,o]
     reverseArray = splitString.reverse();
     // reverse the array
