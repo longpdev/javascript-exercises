@@ -1,11 +1,7 @@
 const removeFromArray = function(...args) {
     // load values into args
-    const array =args[0];
-    newArray = array.filter(function(item) {
-        if (!args.includes(item)) return item;
-    });
-
-    return newArray;
+    const array = args[0];
+    return array.filter(item => !args.includes(item));
 };
 
 // Do not edit below this line
