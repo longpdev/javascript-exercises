@@ -1,9 +1,10 @@
 const reverseString = function(string) {
-    newString ="";
-    for (i = string.length - 1; i >=0 ; i--){
-        newString += string[i];
-    }
-    return newString;
+    splitString = string.split("");
+    // hello -> [h,e,l,l,o]
+    reverseArray = splitString.reverse();
+    // reverse the array
+    joinedArray = reverseArray.join("");
+    return joinedArray  ;
 };
 
 // Do not edit below this line
